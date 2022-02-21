@@ -1,0 +1,91 @@
+.skills {
+  background-color: #4a74f4;
+  overflow: hidden;
+  border-radius: 0 0 20% 0;
+  padding: 8% 5%;
+  box-sizing: border-box;
+}
+.skills h1 {
+  font-size: 50px;
+  font-family: "Recipekorea", sans-serif;
+  color: #fff;
+  margin-top: 0;
+}
+.skills > div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10%;
+  box-sizing: border-box;
+  gap: 70px;
+}
+.skills .card {
+  width: calc((100% - (70px)) / 2);
+  padding: 0 8%;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 8px 8px 30px 0 rgba(0, 0, 0, 0.4);
+  /* user-select: none;
+  pointer-events: none; */
+  transition: all 0.5s;
+}
+.skills .card:hover {
+  transform: translateY(-20px);
+}
+.skills .card:last-child {
+  flex: 1 1 100%;
+}
+.skills h2 {
+  color: #1e2437;
+  margin: 30px 0;
+}
+.skills .img_box {
+  font-size: 0;
+}
+
+.skills .design img {
+  width: calc((100% - (10% * 3)) / 4);
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.skills .design img:nth-child(4n) {
+  margin-right: 0;
+}
+
+.skills .git h2 {
+  margin-bottom: 0;
+}
+.skills .git img {
+  width: 100%;
+}
+
+.skills .front h2 {
+  margin-bottom: 50px;
+}
+.skills .front > div {
+  display: flex;
+  justify-content: space-between;
+}
+.skills .front img {
+  margin-bottom: 5%;
+}
+.skills .front .img_box1 {
+  width: 40%;
+  padding-bottom: 5%;
+  box-sizing: border-box;
+}
+.skills .front .img_box2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.skills .front img {
+  width: calc((100% - 5%) / 2);
+  margin-right: 5%;
+  margin-bottom: 0;
+}
+.skills .front img:nth-child(2n) {
+  margin-right: 0;
+}

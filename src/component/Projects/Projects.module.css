@@ -1,0 +1,15 @@
+.projects{
+    height: 100vh;
+    background-color: #dde9f5;
+    margin-bottom: 8%;
+    overflow: hidden;
+    border-radius: 0 0 0 20% ;
+}
+.projects h1{
+    font-size: 50px;
+    font-family: 'Recipekorea', sans-serif;
+    text-align: center;
+    padding: 8% 10% 0;
+    margin-bottom: 5%;
+    color: #1e2437;
+}
