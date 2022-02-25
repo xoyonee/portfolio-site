@@ -1,9 +1,7 @@
 .projects{
-    height: 100vh;
     background-color: #dde9f5;
-    margin-bottom: 8%;
     overflow: hidden;
-    border-radius: 0 0 0 20% ;
+    border-radius: 0 0 0 150px ;
 }
 .projects h1{
     font-size: 50px;

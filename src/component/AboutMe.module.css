@@ -16,6 +16,7 @@
     list-style: none
 }
 .about_me li{
+    height: 150px;
     flex: 1 1 calc((100% - (30px * 2)) / 3);
     display: flex;
     align-items: center;

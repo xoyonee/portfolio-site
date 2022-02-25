@@ -8,21 +8,23 @@ import Footer from "./component/Footer";
 
 import classes from "./App.module.css";
 
-
 function App() {
   return (
     <Fragment>
       <div>
-        <Header/>
+        <Header />
       </div>
       <main>
-        <Introduce/>
-        <AboutMe/>
+        <Introduce />
+        <AboutMe />
         <div className={classes.bg_skills}>
-          <Skills/>
+          <Skills />
         </div>
-        <Projects/>
+        <div className={classes.bg_Projects}>
+          <Projects />
+        </div>
       </main>
+      <Footer />
     </Fragment>
   );
 }

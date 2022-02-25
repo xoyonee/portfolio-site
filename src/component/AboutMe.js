@@ -1,16 +1,14 @@
 import classes from "./AboutMe.module.css";
 
-import calendar from "../svg/calendar-fill.svg";
-import envelope from "../svg/envelope-fill.svg";
-import geo from "../svg/geo-alt-fill.svg";
-import pencil from "../svg/pencil-fill.svg";
-import person from "../svg/person-fill.svg";
-import telephone from "../svg/telephone-fill.svg";
-import useScroll from "../hooks/useScroll";
+import calendar from "../assets/svg/calendar-fill.svg";
+import geo from "../assets/svg/geo-alt-fill.svg";
+import pencil from "../assets/svg/pencil-fill.svg";
+import person from "../assets/svg/person-fill.svg";
+import telephone from "../assets/svg/telephone-fill.svg";
 
 const AboutMe = () => {
   return (
-    <section className={classes.about_me} id='aboutMe'>
+    <section className={classes.about_me} id="aboutMe">
       <h1>ABOUT ME</h1>
       <ul>
         <li>
@@ -45,19 +43,19 @@ const AboutMe = () => {
             <img src={pencil} alt="pencil" />
           </div>
           <div className={classes.menu}>
-            <h2>학력/교육</h2>
+            <h2>학력</h2>
             <p>해성여자고등학교 졸업</p>
-            <p>UI/UX 웹디자인</p>
-            <p>&amp; 웹퍼블리셔 양성과정B</p>
           </div>
         </li>
         <li>
           <div className={classes.img_box}>
-            <img src={envelope} alt="envelope" />
+            <img src={pencil} alt="pencil" />
           </div>
           <div className={classes.menu}>
-            <h2>이메일</h2>
-            <p>27yeonee@gmail.com</p>
+            <h2>교육</h2>
+            <p>- UI/UX 웹디자인&amp;웹퍼블리셔 양성과정B</p>
+            <p>-【글로벌 Best】React 완벽 가이드</p>
+            <p>&amp; with Redux, Next.js, TypeScript 과정 수료</p>
           </div>
         </li>
         <li>

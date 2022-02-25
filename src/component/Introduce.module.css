@@ -1,8 +1,9 @@
 .main_banner {
     height: 95vh;
     overflow: hidden;
+    text-align: center;
     border-radius: 0 0 0 20% ;
-    background: url(../img/mainbanner.jpg) no-repeat center;
+    background: url(../assets/img/mainbanner.jpg) no-repeat center;
     background-size: cover;
     position: relative;
 }

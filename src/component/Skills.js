@@ -1,17 +1,17 @@
 import classes from "./Skills.module.css";
 
-import photoshop from "../img/skills/photoshop_icon.png";
-import illustration from "../img/skills/illustration_icon.png";
-import premiere from "../img/skills/premiere_icon.png";
-import aftereffects from "../img/skills/aftereffects.icon.png";
-import git_hub from "../img/skills/git_icon.jpg";
-import html from "../img/skills/html_icon.png";
-import css from "../img/skills/css_icon.png";
-import jquery from "../img/skills/jquery_icon.png";
-import js from "../img/skills/js_icon.png";
-import react from "../img/skills/react_icon.png";
-import redux from "../img/skills/redux_icon.png";
-import nextjs from "../img/skills/nextjs_icon.png";
+import photoshop from "../assets/img/skills/photoshop_icon.png";
+import illustration from "../assets/img/skills/illustration_icon.png";
+import premiere from "../assets/img/skills/premiere_icon.png";
+import aftereffects from "../assets/img/skills/aftereffects.icon.png";
+import git_hub from "../assets/img/skills/git_icon.jpg";
+import html from "../assets/img/skills/html_icon.png";
+import css from "../assets/img/skills/css_icon.png";
+import jquery from "../assets/img/skills/jquery_icon.png";
+import js from "../assets/img/skills/js_icon.png";
+import react from "../assets/img/skills/react_icon.png";
+import redux from "../assets/img/skills/redux_icon.png";
+import nextjs from "../assets/img/skills/nextjs_icon.png";
 
 const Skills = () => {
   return (

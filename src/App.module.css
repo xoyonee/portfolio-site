@@ -6,11 +6,17 @@
 }
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-* {
+h1 {
   text-align: center;
   font-family: 'Noto Sans KR', sans-serif;
 }
 .bg_skills{
   background-color: #dde9f5;
 }
-
+.bg_Projects{
+  background-color: #333;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,81 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.img_box {
+  width: 60%;
+  height: 30vw;
+  position: relative;
+}
+.iPad {
+  width: 35%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.imac {
+  width: 85%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.iPhone {
+  width: 20%;
+  position: absolute;
+  bottom: 0;
+  right: 1%;
+}
+.desc {
+  width: 36%;
+}
+.desc ul {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.desc li {
+  list-style: none;
+  text-align: left;
+}
+.title {
+  margin: 5px 0;
+}
+.desc a {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  text-decoration: none;
+  outline: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+}
+.git_hub {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1480px) {
+  .card {
+    flex-direction: column;
+  }
+  .img_box {
+    width: 60%;
+    box-sizing: border-box;
+  }
+  .desc {
+    width: 50%;
+    text-align: center;
+  }
+  .desc li {
+    text-align: center;
+  }
+  .desc a {
+    margin: 20px auto;
+    justify-content: center;
+  }
+}
