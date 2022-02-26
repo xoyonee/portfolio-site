@@ -35,9 +35,6 @@ const Portfolio = () => {
 
             <img src="https://img.shields.io/badge/vercel-000000?style=flat-square&#38;logo=vercel&#38;logoColor=white" />
 
-            <a href="https://book-locker-project.vercel.app/">
-              ✈️ 데모 사이트 보러가기 ✈️
-            </a>
             <a href="https://github.com/xoyonee/Book-Locker-project">
               <img
                 className={classes.git_hub}
