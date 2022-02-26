@@ -3,7 +3,7 @@ import classes from "./Introduce.module.css";
 
 const Introduce = () => {
   return (
-    <section className={classes.main_banner}>
+    <section className={classes.main_banner} id='introduce'>
       <div>
         <h3>Welcome!</h3>
         <div className={classes.title}>

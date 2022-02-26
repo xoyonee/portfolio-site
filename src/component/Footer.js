@@ -6,12 +6,14 @@ import telephone from "../assets/svg/telephone-fill.svg";
 
 const Footer = () => {
   return (
-    <footer className={classes.footer}>
+    <footer className={classes.footer} id='contact'>
       <h1>CONTACT</h1>
       <ul>
         <li>
-          <img src={telephone} alt="telephone" />
-          <p>010-2967-2274</p>
+          <a href="tel:010-2967-2274">
+            <img src={telephone} alt="telephone" />
+            <p>010-2967-2274</p>
+          </a>
         </li>
         <li>
           <a href="mailto:27yeonee@gmail.com">

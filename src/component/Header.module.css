@@ -1,7 +1,6 @@
 header {
   width: 100%;
   height: 80px;
-  line-height: 80px;
   user-select: none;
   position: fixed;
   top: 0;
@@ -19,39 +18,107 @@ header {
 .header_active a {
   color: #444;
 }
-
 header nav {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 5%;
+  box-sizing: border-box;
 }
 header a {
   color: #cdd3e4;
   text-decoration: initial;
   padding: 0 3%;
 }
-header .logo a{
+header .logo a {
   font-family: "Recipekorea", sans-serif;
 }
-header a:hover{
-    color: #fff;
+header a:hover {
+  color: #fff;
 }
 .header_active a:hover {
   color: #4a74f4;
 }
 header .logo {
-  min-width: 30%;
+  width: 30%;
   text-align: left;
 }
 header .gnb {
-  min-width: 40%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  width: 70%;
+}
+header .pan {
   display: flex;
   justify-content: flex-end;
 }
 header .gnb a {
   padding: 0 3%;
   font-size: 16px;
+}
+
+/* 반응형 */
+@media screen and (max-width: 960px) {
+  header {
+    font-size: 15px;
+    background-color: #fff;
+  }
+  header .logo {
+    width: 100%;
+  }
+  header .gnb {
+    width: 30%;
+    text-align: right;
+  }
+  header a {
+    color: #333;
+  }
+  header .gnb a {
+    padding: 0 5%;
+    font-size: 16px;
+  }
+  header a:hover {
+    color: #4a74f4;
+  }
+  .bugger {
+    width: 25px;
+    height: 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .bugger .line {
+    width: 100%;
+    height: 4px;
+    background-color: #333;
+  }
+  .bugger .line:nth-child(2) {
+    margin: 4px 0;
+  }
+  header .pan {
+    display: block;
+  }
+  .pan {
+    width: 100%;
+    height: 0px;
+    line-height: 50px;
+    overflow: hidden;
+
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transition: all 0.5s;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
+  }
+  .pan a {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .pan_active {
+    height: 260px;
+  }
 }

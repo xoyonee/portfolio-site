@@ -19,10 +19,41 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10%;
 }
 .footer li {
-    font-size: 20px;
+  width: calc(100% / 3);
+  font-size: 20px;
 }
 .footer img {
   width: 80px;
+}
+
+/* 반응형 */
+@media screen and (max-width: 1300px) {
+  .footer ul {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .footer {
+    height: auto;
+  }
+  .footer ul {
+    width: 90%;
+  }
+  .footer h1 {
+    padding: 20px 10%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer img {
+    width: 70px;
+  }
+  .footer a p {
+    display: none;
+  }
 }

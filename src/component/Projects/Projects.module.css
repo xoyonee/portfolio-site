@@ -1,13 +1,29 @@
-.projects{
-    background-color: #dde9f5;
-    overflow: hidden;
-    border-radius: 0 0 0 150px ;
+.projects {
+  background-color: #dde9f5;
+  overflow: hidden;
+  border-radius: 0 0 0 250px;
+  padding-bottom: 40px;
 }
-.projects h1{
-    font-size: 50px;
-    font-family: 'Recipekorea', sans-serif;
-    text-align: center;
-    padding: 8% 10% 0;
-    margin-bottom: 5%;
-    color: #1e2437;
+.projects h1 {
+  font-size: 50px;
+  font-family: "Recipekorea", sans-serif;
+  text-align: center;
+  padding: 8% 10% 0;
+  margin-bottom: 5%;
+  color: #1e2437;
+}
+
+/* 반응형 */
+@media screen and (max-width: 960px) {
+  .projects {
+    padding-top: 40px;
+  border-radius: 0 0 0 130px;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .projects {
+        border-radius: 0 0 0 100px;
+      }
 }

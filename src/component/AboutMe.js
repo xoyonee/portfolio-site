@@ -3,6 +3,7 @@ import classes from "./AboutMe.module.css";
 import calendar from "../assets/svg/calendar-fill.svg";
 import geo from "../assets/svg/geo-alt-fill.svg";
 import pencil from "../assets/svg/pencil-fill.svg";
+import envelope from "../assets/svg/envelope-fill.svg";
 import person from "../assets/svg/person-fill.svg";
 import telephone from "../assets/svg/telephone-fill.svg";
 
@@ -47,15 +48,13 @@ const AboutMe = () => {
             <p>해성여자고등학교 졸업</p>
           </div>
         </li>
-        <li>
+        <li className={classes.education}>
           <div className={classes.img_box}>
-            <img src={pencil} alt="pencil" />
+            <img src={envelope} alt="envelope" />
           </div>
           <div className={classes.menu}>
-            <h2>교육</h2>
-            <p>- UI/UX 웹디자인&amp;웹퍼블리셔 양성과정B</p>
-            <p>-【글로벌 Best】React 완벽 가이드</p>
-            <p>&amp; with Redux, Next.js, TypeScript 과정 수료</p>
+            <h2>이메일</h2>
+            <p>27yeonee@gmail.com</p>
           </div>
         </li>
         <li>
