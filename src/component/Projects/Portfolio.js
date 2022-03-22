@@ -35,7 +35,7 @@ const Portfolio = () => {
 
             <img src="https://img.shields.io/badge/vercel-000000?style=flat-square&#38;logo=vercel&#38;logoColor=white" />
 
-            <a href="https://github.com/xoyonee/Book-Locker-project">
+            <a href="https://github.com/xoyonee/portfolio-site">
               <img
                 className={classes.git_hub}
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"

@@ -54,7 +54,7 @@ const BookLocker = () => {
             <a href="https://book-locker-project.vercel.app/">
               ✈️ 데모 사이트 보러가기 ✈️
             </a>
-            <a href="https://github.com/xoyonee/portfolio-site">
+            <a href="https://github.com/xoyonee/Book-Locker-project">
               <img
                 className={classes.git_hub}
                 src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
